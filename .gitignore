@@ -43,3 +43,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+BackEnd/node_modules
+BackEnd/.idea

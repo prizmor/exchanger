@@ -1,0 +1,23 @@
+<div class="auth">
+  <div class="login">
+    <div class="label">
+      Вход
+    </div>
+    <div class="inputContainer">
+      <mat-form-field class="input" appearance="outline">
+        <mat-label>Логин</mat-label>
+        <input required  matInput [(ngModel)]="login">
+      </mat-form-field>
+      <mat-form-field class="input" appearance="outline">
+        <mat-label>Пароль</mat-label>
+        <input required type="password" matInput [(ngModel)]="password">
+      </mat-form-field>
+    </div>
+    <div class="buttonContainer">
+      <button class="button" (click)="submit()" mat-raised-button color="primary">Войти</button>
+    </div>
+    <div class="err">
+      {{err}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+.profile {
+  width: 100%;
+  height: 100%;
+
+  .login {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 34px;
+    }
+    button {
+      margin-right: 30px;
+    }
+  }
+  .button {
+    margin-top: 30px;
+  }
+
+  .password {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    .input {
+
+    }
+
+    .accept {
+
+    }
+  }
+}
